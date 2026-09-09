@@ -1,0 +1,35 @@
+# Restricted source data and derived patient-level data
+data/
+work/
+duckdb_tmp/
+*.csv.gz
+*.rds
+*.duckdb
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.feather
+
+# Local configuration and credentials
+config_local.R
+config_local.yaml
+config_local.yml
+.env
+*.key
+*.pem
+
+# Local R and Python state
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.py[cod]
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Keep aggregate publication outputs under version control only after review.
+# Do not use a blanket output/ rule because reviewed aggregate tables may be released.

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the versioned release and the accompanying manuscript. Add all coauthors before the public release."
+title: "Phase 2 reanalysis of vasoactive strategies in suspected right-ventricular dysfunction"
+type: software
+version: "1.1.0"
+license: MIT
+authors:
+  - given-names: Daniele
+    family-names: Orso
+keywords:
+  - critical care
+  - right-ventricular dysfunction
+  - milrinone
+  - dobutamine
+  - causal inference
+  - eICU
+  - MIMIC-IV
+abstract: >-
+  Reproducibility materials and analysis-plan documentation for a Phase 2
+  observational reanalysis comparing milrinone with dobutamine in adults
+  treated for a suspected right-ventricular dysfunction phenotype.
